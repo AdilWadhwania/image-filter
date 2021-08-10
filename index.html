@@ -1,0 +1,35 @@
+<html>
+<head>
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script> 
+</head>
+<body>
+<div class="filter">
+  <h1>Filter Fun</h1>
+<div class="image_upload">
+   <h2>Load Image</h2>
+<canvas id="can">
+</canvas>
+<input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()"> 
+  <p id="dimensions"></p> 
+ 
+</div>
+<div id="choose_filters">
+  <h2>Choose Filters</h2> 
+<input type="button" value="grayscale" onclick="turngray()">
+   <input type="button" value="graycircle" onclick="graycircle()">
+  <input type="button" value="Red" onclick="red()">
+  <input type="button" value="tryIt" onclick="tryit()">
+  <input type="button" value="vertical_Rainbow" onclick="verticalrainbow()">
+     <input type="button" value="rainbow_graycircle" onclick="rain_gray()">
+  <input type="button" value="rainbow_dots" onclick="rain_dot()">
+  <input type="button" value="horizontal_Rainbow" onclick="horizontalrainbow()">
+<input type="button" value="H_rainbow_graycircle" onclick="h_rain_gray()">
+  <input type="button" value="H_rainbow_dots" onclick="h_rain_dot()">
+  <br>
+ <input type="button" value="previous filter" onclick="unchanged()"> 
+<input type="button" value="reset image" onclick="reset()">
+</div>
+</div>
+</body>
+</html>
